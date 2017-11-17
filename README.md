@@ -12,6 +12,7 @@ Ogni conto è caratterizzato da un proprietario (identificato dal suo CF), un ib
 	conto deposito: dove si può solo depositare (e non prelevare) denaro
 
 
+
 1. Creazione conti
 
 Tutti i conti possono essere aperti tramite la banca comunicando il CF del proprietario e il tipo di conto da aprire.
@@ -27,7 +28,8 @@ Tutti i conti possono essere aperti tramite la banca comunicando il CF del propr
 
 		b. non si può effettuare il login nel conto.
 
-		
+
+
 2. Operazioni sui conti
 
 Le operazioni sui conti devono essere svolte tramite la banca. La banca contiene 0...n conti dei diversi tipi, ognuno identificato 
@@ -40,7 +42,8 @@ dal suo iban. Su ogni conto deve essere possibile:
 
 	stampare i dettagli del conto (CF intestatario, iban e saldo).
 
-	
+
+
 3. Accrediti/Domiciliazioni
 
 Ad ogni conto, tramite la banca, è possibile associare degli (O...n) Accountable. Ogni Accountable definisce una cifra da accreditare
